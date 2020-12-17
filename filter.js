@@ -12,7 +12,6 @@ window.onload = async () => {
       for (const name in d) {
         if (d[name].indexOf(key) >= 0) {
           flg = true;
-          console.log(d[name]);
           break;
         }
       }
