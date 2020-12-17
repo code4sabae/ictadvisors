@@ -41,6 +41,9 @@ for (const d of json) {
   gtag('config', 'G-3SZZNGC94H');
 </script>
 <meta charset="utf-8">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="og:image"  content="https://code4sabae.github.io/ictadvisors/ictadvisors.png">
+<meta name="twitter:image" content="https://code4sabae.github.io/ictadvisors/ictadvisors.png">
 <title>${d["氏名"]} - 地域情報アドバイザー2020</title>
 <link rel="stylesheet" type="text/css" href="../ictadvisor.css">
 </head>
@@ -81,6 +84,9 @@ const indexhtml =
   gtag('config', 'G-3SZZNGC94H');
 </script>
 <meta charset="utf-8">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="og:image"  content="https://code4sabae.github.io/ictadvisors/ictadvisors.png">
+<meta name="twitter:image" content="https://code4sabae.github.io/ictadvisors/ictadvisors.png">
 <title>総務省 地域情報化アドバイザー一覧 2020</title>
 <script type="module" src="filter.js"></script>
 <link rel="stylesheet" type="text/css" href="index.css">
