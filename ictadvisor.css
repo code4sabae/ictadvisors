@@ -1,0 +1,24 @@
+h1 {
+  font-size: 5vw;
+  line-height: 1.8em;
+}
+.data {
+  margin: .8em;
+  padding: 0;
+  border: 1px solid #33a;
+  background-color: #fff;
+  font-size: 80%;
+}
+.data h2 {
+  background-color: #33a;
+  margin: 0 0 0 0;
+  padding: .2em;
+  color: white;
+}
+.data div {
+  white-space: pre-wrap;
+  padding: .4em;
+}
+a {
+  color: gray !important;
+}
