@@ -15,7 +15,7 @@ const path = "html";
 await Deno.mkdir(path, { recursive: true });
 
 const replaceLink = (s) => {
-  return s.replace(/(http(s)?:\/\/[a-zA-Z0-9-.!'()*;/?:@&=+$,%#]+)/gi, "<a href='$1' target='_blank'>$1</a>");
+  return s.replace(/(http(s)?:\/\/[a-zA-Z0-9-.!'()*;/?:@&=+$,%#_]+)/gi, "<a href='$1' target='_blank'>$1</a>");
 };
 
 const csv = CSV.decode(await Deno.readTextFile("ictadvisors_2020.csv"));
