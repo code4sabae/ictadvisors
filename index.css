@@ -36,6 +36,9 @@ h2 {
   margin-left: 1em;
   margin-bottom: 1em;
 }
+.data img {
+  margin-right: 1em;
+}
 a {
   color: gray !important;
 }
