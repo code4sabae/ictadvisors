@@ -29,14 +29,7 @@ h2 {
   margin: 0;
   padding: 0;
 }
-.data div {
-  white-space: pre-wrap;
-  font-size: 70%;
-  color: gray;
-  margin-left: 1em;
-  margin-bottom: 1em;
-}
-.data img {
+img {
   margin-right: 1em;
 }
 a {
@@ -48,4 +41,27 @@ a {
 }
 .credit {
   margin: .8em;
+}
+.advisor {
+  margin: .5em;
+  padding: .5em;
+  border: 1px solid gray;
+}
+.detail {
+  clear: both;
+  display: grid;
+  margin-top: .5em;
+  grid-template-columns: 20em 1fr;
+}
+.detail .body {
+  x-white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.view {
+  white-space: pre-wrap !important;
+  overflow: visible !important;
+  margin-bottom: .5em;
 }
