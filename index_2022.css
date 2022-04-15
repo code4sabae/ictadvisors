@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: .8em 0em;
+  text-align: center;
+  background-color: #33a;
+  color: white;
+  font-size: 4.8vw;
+  line-height: 1.8em;
+}
+input[type=text] {
+  width: 80vw;
+  font-size: 110%;
+  padding: .5em .3em;
+  margin: .8em;
+}
+#filtered {
+  margin: 0 0 .8em 1.6em;
+  font-size: 80%;
+}
+#main {
+  margin: 0 .8em;
+}
+h2 {
+  font-size: 90%;
+  margin: 0;
+  padding: 0;
+}
+img {
+  margin-right: 1em;
+}
+a {
+  color: gray !important;
+}
+#main a {
+  color: black !important;
+  text-decoration: none !important;
+}
+.credit {
+  margin: .8em;
+}
+.advisor {
+  margin: .5em;
+  padding: .5em;
+  border: 1px solid gray;
+}
+.advisor .name {
+  background-color: #cce;
+  font-weight: bold;
+  margin-top: .5em;
+  padding: .5em;
+}
+.advisor h2 {
+  font-size: 150%;
+  cursor: pointer;
+}
+.detail {
+  clear: both;
+  display: grid;
+  margin-top: .5em;
+  grid-template-columns: 20em 1fr;
+}
+.detail .body {
+  x-white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.view {
+  white-space: pre-wrap !important;
+  overflow: visible !important;
+  margin-bottom: .5em;
+}
