@@ -31,6 +31,5 @@ window.onload = async () => {
     h2.onclick = () => {
       div.style.display = div.style.display == "block" ? "none" : "block";
     };
-    div.style.display = "none";
   });
 };

@@ -60,6 +60,9 @@ a {
   font-size: 150%;
   cursor: pointer;
 }
+.advisor > div {
+  display: none;
+}
 .detail {
   clear: both;
   display: grid;
