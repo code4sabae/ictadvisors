@@ -55,23 +55,25 @@ const indexhtml =
 </script>
 <meta charset="utf-8">
 <meta name="twitter:card" content="summary_large_image"/>
-<meta property="og:image"  content="https://code4sabae.github.io/ictadvisors/ictadvisors_2021.jpg">
-<meta name="twitter:image" content="https://code4sabae.github.io/ictadvisors/ictadvisors_2021.jpg">
+<meta property="og:image"  content="https://code4sabae.github.io/ictadvisors/ictadvisors_2022.jpg">
+<meta name="twitter:image" content="https://code4sabae.github.io/ictadvisors/ictadvisors_2022.jpg">
 <title>総務省 地域情報化アドバイザー検索 2022</title>
 <script type="module" src="filter_2022.js"></script>
 <link rel="stylesheet" type="text/css" href="index_2022.css">
 <body>
 
 <h1>総務省 地域情報化アドバイザー検索 2022</h1>
+<div id=inputc>
 <input id="inputfilter" type=text placeholder="キーワードを入力して絞り込み"><br>
+</div>
 <div id="filtered"></diV>
 
 <div id="main">${divs2.join("\n")}</div>
 <hr>
 <div class=credit>
   <div>App: <a href=https://fukuno.jig.jp/>福野泰介の一日一創</a> (<a href=https://github.com/code4sabae/ictadvisors/>src on GitHub</a>)</div>
-  <div>Data: <a href=https://www.applic.or.jp/page-1862/>地域情報化アドバイザー一覧</a> → <a href="ictadvisors_2021.csv">UTF-8 CSV</a></div>
-  <div>Archive: <a href=index_2020.html>地域情報化アドバイザー一覧2020</a></div>
+  <div>Data: <a href=https://www.r-ict-advisor.jp/member/opendata/>オープンデータ | アドバイザー一覧 | 地域情報化アドバイザー</a></div>
+  <div>Archive: <a href=index_2021.html>地域情報化アドバイザー一覧2021</a>, <a href=index_2020.html>地域情報化アドバイザー一覧2020</a></div>
 </div>
 </body>
 </html>`;

@@ -11,6 +11,9 @@ h1 {
   font-size: 4.8vw;
   line-height: 1.8em;
 }
+#inputc {
+  text-align: center;
+}
 input[type=text] {
   width: 80vw;
   font-size: 110%;
