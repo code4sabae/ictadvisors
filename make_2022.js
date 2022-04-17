@@ -43,7 +43,7 @@ for (const l of data) {
 }
 
 const indexhtml =
-`<!DOCTYPE html><html><head>
+`<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SZZNGC94H"></script>
 <script>
