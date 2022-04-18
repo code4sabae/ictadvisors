@@ -71,7 +71,7 @@ const indexhtml =
 <div id="main">${divs2.join("\n")}</div>
 <hr>
 <div class=credit>
-  <div>App: <a href=https://fukuno.jig.jp/>福野泰介の一日一創</a> (<a href=https://github.com/code4sabae/ictadvisors/>src on GitHub</a>)</div>
+  <div>App: <a href=https://fukuno.jig.jp/3553>福野泰介の一日一創</a> (<a href=https://github.com/code4sabae/ictadvisors/>src on GitHub</a>)</div>
   <div>Data: <a href=https://www.r-ict-advisor.jp/member/opendata/>地域情報化アドバイザーオープンデータ</a> by <a href=https://www.r-ict-advisor.jp>APPLIC（https://www.r-ict-advisor.jp）</a></div>
   <div>Archive: <a href=index_2021.html>地域情報化アドバイザー一覧2021</a>, <a href=index_2020.html>地域情報化アドバイザー一覧2020</a></div>
 </div>
