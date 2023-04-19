@@ -24,6 +24,7 @@ window.onload = async () => {
   if (isPC()) {
     inputfilter.onkeyup = search;
   }
+  search();
 
   document.querySelectorAll(".advisor").forEach(a => {
     const h2 = a.querySelector("h2");
