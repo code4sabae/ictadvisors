@@ -14,6 +14,9 @@ for (let i = 2022; i <= 2023; i++) {
 }
 const diff = ArrayUtil.diff(names[2022], names[2023]);
 console.log(diff, diff.added.length, diff.removed.length);
+const show = (ar) => ar.map(s => s.氏名.replace("　", "") + "氏").join("、");
+console.log("新任メンバー: " + show(diff.added));
+console.log("卒業メンバー: " + show(diff.removed));
 await Deno.writeTextFile("ictadvisors_name_diff_2023.json", JSON.stringify(diff, null, 2));
 //console.log(JSON.stringify(JSONUtil.diff(names[2022], names[2023]), null, 2));
 //console.log(JSON.stringify(diffChars(names[2022], names[2023]), null, 2));
