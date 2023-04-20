@@ -18,7 +18,7 @@ window.onload = async () => {
       }
       div.style.display = flg ? "block" : "none";      
     }
-    filtered.textContent = `該当者：${cnt}人`;
+    filtered.textContent = `該当者：${cnt}名`;
   };
   inputfilter.onchange = search;
   if (isPC()) {
