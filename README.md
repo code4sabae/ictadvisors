@@ -1,7 +1,7 @@
 # 総務省地域情報化アドバイザー一覧
 
 - http://code4sabae.github.io/ictadvisors/
-![ictadvisors](https://code4sabae.github.io/ictadvisors/ictadvisors_2023.jpg)  
+![ictadvisors](https://code4sabae.github.io/ictadvisors/ictadvisors_2024.jpg)  
 
 ## 履歴
 
