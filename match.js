@@ -1,7 +1,10 @@
 const match1 = (d, kword) => {
   const k2 = kword.toLowerCase();
   for (const name in d) {
-    const c = d[name];
+    let c = d[name];
+    if (typeof c != "string") {
+      c = c.toString();
+    }
     if (c.toLowerCase().indexOf(k2) >= 0) {
       return true;
     }

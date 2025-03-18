@@ -36,12 +36,24 @@ img {
   margin-right: 1em;
 }
 a {
+  color: #0077cc; /* 落ち着いた青 */
+  text-decoration: none; /* 下線なし */
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #005599; /* ホバー時に濃いめ */
+  text-decoration: underline; /* 下線追加でアクセント */
+}
+/*
+a {
   color: gray !important;
 }
 #main a {
   color: black !important;
   text-decoration: none !important;
 }
+*/
 .credit {
   margin: .8em;
 }
