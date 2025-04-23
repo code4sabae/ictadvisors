@@ -13,10 +13,11 @@
 
 ## 追加方法
 
-1. [地域情報化アドバイザーオープンデータ](https://www.r-ict-advisor.jp/member/opendata/) を ictadvisors.csv として保存
-2. 前年度 make_????.js を元に、今年度 make_????.j を作成
-3. deno run -A make_????.js を実行し index.html ができるので、動作確認する
-4. index_????.html / ictadvisors_????.csv として履歴を作る
+1. 昨年の ictadvisors.csv を削除
+2. [地域情報化アドバイザーオープンデータ](https://www.r-ict-advisor.jp/member/opendata/) を ictadvisors.csv と ictadvisors_????.csv として保存する
+3. 前年度 make_????.js を元に、今年度 make_????.j を作成
+4. deno run -A make_????.js を実行し index.html と index_????.html ができるので、動作確認する
+5. アプリのスクリーンショットを ictadvisors_????.jpg として保存する
 
 ## 出典
 
