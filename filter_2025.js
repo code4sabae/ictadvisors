@@ -7,10 +7,13 @@ window.onload = async () => {
   for (let i = 0; i < json.length; i++) {
     json[i].ID = i + 1;
   }
-  console.log(json)
+  console.log(json);
+
+  inputfilter.value = decodeURIComponent(location.hash.substring(1)) || "";
 
   const search = () => {
     const key = inputfilter.value;
+    location.hash = encodeURIComponent(key);
     let cnt = 0;
     for (const d of json) {
       const flg = match(d, key);
