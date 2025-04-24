@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 h1 {
   margin: 0;
@@ -62,6 +63,7 @@ a {
   margin: .5em;
   padding: .5em;
   border: 1px solid gray;
+  word-break: break-all;
 }
 .advisor .name {
   background-color: #cce;
